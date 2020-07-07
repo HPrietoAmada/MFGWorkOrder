@@ -7,15 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE21F68C23C3D3CA00F05002 /* HW_M200551---_OI_MT_RELEASED.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE21F68A23C3D3CA00F05002 /* HW_M200551---_OI_MT_RELEASED.pdf */; };
+		DE21F68D23C3D3CA00F05002 /* HW_M200552---_OI_MT_RELEASED.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE21F68B23C3D3CA00F05002 /* HW_M200552---_OI_MT_RELEASED.pdf */; };
+		DE62835F23DA221200D7DBCC /* DirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE62835E23DA221200D7DBCC /* DirectoryViewController.swift */; };
+		DE78BD6C23888E8700E9F2AF /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78BD6B23888E8700E9F2AF /* BasicTableViewCell.swift */; };
+		DE78BD6F23888EF500E9F2AF /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78BD6E23888EF500E9F2AF /* Helpers.swift */; };
+		DE78BD7223888F3700E9F2AF /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78BD7123888F3700E9F2AF /* BorderView.swift */; };
+		DE78BD752388AFC400E9F2AF /* WorkOrderTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78BD742388AFC400E9F2AF /* WorkOrderTypeTableViewController.swift */; };
+		DE78BD772388AFD400E9F2AF /* WorkOrderTypeTableViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78BD762388AFD400E9F2AF /* WorkOrderTypeTableViewController+TableView.swift */; };
+		DE78BD792388B00C00E9F2AF /* WorkOrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78BD782388B00C00E9F2AF /* WorkOrderType.swift */; };
+		DE78BD7B2388B09400E9F2AF /* WorkOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78BD7A2388B09400E9F2AF /* WorkOrderModel.swift */; };
+		DE78BD7E2388B41D00E9F2AF /* WorkOrderModelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78BD7D2388B41D00E9F2AF /* WorkOrderModelTableViewController.swift */; };
+		DE78BD802388B42C00E9F2AF /* WorkOrderModelTableViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78BD7F2388B42C00E9F2AF /* WorkOrderModelTableViewController+TableView.swift */; };
 		DE8A0614238875D700A1A355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A0613238875D700A1A355 /* AppDelegate.swift */; };
-		DE8A0616238875D700A1A355 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A0615238875D700A1A355 /* SceneDelegate.swift */; };
 		DE8A0618238875D700A1A355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A0617238875D700A1A355 /* ViewController.swift */; };
-		DE8A061B238875D700A1A355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8A0619238875D700A1A355 /* Main.storyboard */; };
 		DE8A061E238875D700A1A355 /* MFGWorkOrder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE8A061C238875D700A1A355 /* MFGWorkOrder.xcdatamodeld */; };
 		DE8A0620238875D800A1A355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8A061F238875D800A1A355 /* Assets.xcassets */; };
 		DE8A0623238875D800A1A355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8A0621238875D800A1A355 /* LaunchScreen.storyboard */; };
 		DE8A062E238875D800A1A355 /* MFGWorkOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A062D238875D800A1A355 /* MFGWorkOrderTests.swift */; };
 		DE8A0639238875D800A1A355 /* MFGWorkOrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A0638238875D800A1A355 /* MFGWorkOrderUITests.swift */; };
+		DE8A064B2388764500A1A355 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A064A2388764500A1A355 /* QRScannerView.swift */; };
+		DE8A064D2388765200A1A355 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A064C2388765200A1A355 /* QRScannerViewController.swift */; };
+		DE8A0650238876B600A1A355 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A064F238876B600A1A355 /* CollectionView.swift */; };
+		DE8A06532388778000A1A355 /* WorkOrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A06522388778000A1A355 /* WorkOrdersTableViewController.swift */; };
+		DE8A06552388778E00A1A355 /* WorkOrdersTableViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A06542388778E00A1A355 /* WorkOrdersTableViewController+TableView.swift */; };
+		DE8A06582388785500A1A355 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A06572388785500A1A355 /* HeaderTableViewCell.swift */; };
+		DE8A065B2388792500A1A355 /* WorkOrderFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A065A2388792500A1A355 /* WorkOrderFile.swift */; };
+		DE8A065E23887A7800A1A355 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A065D23887A7800A1A355 /* NavigationController.swift */; };
+		DE8A066023887EB800A1A355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8A065F23887EB800A1A355 /* Main.storyboard */; };
+		DE8A0675238884C000A1A355 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A0674238884C000A1A355 /* PDFViewController.swift */; };
+		DE971D58238F12BC00EDB0F1 /* HW-Y202012--A STATIONARY TABLE WELDMENT_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D4D238F12BA00EDB0F1 /* HW-Y202012--A STATIONARY TABLE WELDMENT_OI.PDF */; };
+		DE971D59238F12BC00EDB0F1 /* HW-Y201964--B Sub Frame Final Weldment_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D4E238F12BA00EDB0F1 /* HW-Y201964--B Sub Frame Final Weldment_OI.PDF */; };
+		DE971D5A238F12BC00EDB0F1 /* HW-Y201962--B Main Frame Final Weldment_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D4F238F12BA00EDB0F1 /* HW-Y201962--B Main Frame Final Weldment_OI.PDF */; };
+		DE971D5B238F12BC00EDB0F1 /* HW-Y201964--B Sub Frame LHS_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D50238F12BB00EDB0F1 /* HW-Y201964--B Sub Frame LHS_OI.PDF */; };
+		DE971D5C238F12BC00EDB0F1 /* HW-Y201962--B Main Frame RHS Weldment_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D51238F12BB00EDB0F1 /* HW-Y201962--B Main Frame RHS Weldment_OI.PDF */; };
+		DE971D5D238F12BC00EDB0F1 /* HW-Y201961--A ST Frame Weldment_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D52238F12BB00EDB0F1 /* HW-Y201961--A ST Frame Weldment_OI.PDF */; };
+		DE971D5E238F12BC00EDB0F1 /* HW-Y201970--A Suction Frame Weldment_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D53238F12BB00EDB0F1 /* HW-Y201970--A Suction Frame Weldment_OI.PDF */; };
+		DE971D5F238F12BC00EDB0F1 /* HW-Y201964--B Sub Frame RHS_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D54238F12BB00EDB0F1 /* HW-Y201964--B Sub Frame RHS_OI.PDF */; };
+		DE971D60238F12BC00EDB0F1 /* HW-Y201962--B Main Frame LHS Weldment_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D55238F12BC00EDB0F1 /* HW-Y201962--B Main Frame LHS Weldment_OI.PDF */; };
+		DE971D61238F12BC00EDB0F1 /* HW-Y201960--A FT Frame Weldment_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D56238F12BC00EDB0F1 /* HW-Y201960--A FT Frame Weldment_OI.PDF */; };
+		DE971D62238F12BC00EDB0F1 /* HW-Y201969--A Fork Frame Weldment_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D57238F12BC00EDB0F1 /* HW-Y201969--A Fork Frame Weldment_OI.PDF */; };
+		DE971D6B238F12D300EDB0F1 /* HWY201724--B_OI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D63238F12CE00EDB0F1 /* HWY201724--B_OI.pdf */; };
+		DE971D6C238F12D300EDB0F1 /* HWY202124---_OI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D64238F12CE00EDB0F1 /* HWY202124---_OI.pdf */; };
+		DE971D6D238F12D300EDB0F1 /* HWY201726--B_A01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D65238F12CF00EDB0F1 /* HWY201726--B_A01.pdf */; };
+		DE971D6E238F12D300EDB0F1 /* HWY201727--B_A01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D66238F12CF00EDB0F1 /* HWY201727--B_A01.pdf */; };
+		DE971D6F238F12D300EDB0F1 /* HWY201723--D_A01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D67238F12D100EDB0F1 /* HWY201723--D_A01.pdf */; };
+		DE971D70238F12D300EDB0F1 /* HWY202125---_OI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D68238F12D200EDB0F1 /* HWY202125---_OI.pdf */; };
+		DE971D71238F12D300EDB0F1 /* HWY202126---_OI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D69238F12D300EDB0F1 /* HWY202126---_OI.pdf */; };
+		DE971D72238F12D300EDB0F1 /* HWY201725---_OI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D6A238F12D300EDB0F1 /* HWY201725---_OI.pdf */; };
+		DE971D76238F134900EDB0F1 /* LWY201875---_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D73238F134900EDB0F1 /* LWY201875---_OI.PDF */; };
+		DE971D77238F134900EDB0F1 /* LWY112799--A_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D74238F134900EDB0F1 /* LWY112799--A_OI.PDF */; };
+		DE971D78238F134900EDB0F1 /* LWY201874---_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D75238F134900EDB0F1 /* LWY201874---_OI.PDF */; };
+		DE971D7D238F135900EDB0F1 /* Y108889--Wheel Cover.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D79238F135900EDB0F1 /* Y108889--Wheel Cover.pdf */; };
+		DE971D7E238F135900EDB0F1 /* Y20101400 Rib.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D7A238F135900EDB0F1 /* Y20101400 Rib.pdf */; };
+		DE971D7F238F135900EDB0F1 /* Y20102200 Shot pin Cover.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D7B238F135900EDB0F1 /* Y20102200 Shot pin Cover.pdf */; };
+		DE971D80238F135900EDB0F1 /* Y201038--Cover.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D7C238F135900EDB0F1 /* Y201038--Cover.pdf */; };
+		DE971D86238F136B00EDB0F1 /* LWY114183---_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D81238F136A00EDB0F1 /* LWY114183---_OI.PDF */; };
+		DE971D87238F136B00EDB0F1 /* LWY114182---_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D82238F136A00EDB0F1 /* LWY114182---_OI.PDF */; };
+		DE971D88238F136B00EDB0F1 /* LWY201786--A_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D83238F136A00EDB0F1 /* LWY201786--A_OI.PDF */; };
+		DE971D89238F136B00EDB0F1 /* LWY202161---_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D84238F136B00EDB0F1 /* LWY202161---_OI.PDF */; };
+		DE971D8A238F136B00EDB0F1 /* LWY202162---_OI.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D85238F136B00EDB0F1 /* LWY202162---_OI.PDF */; };
+		DE971D8F238F138600EDB0F1 /* LW_Y201979--A CDC1_OI_MT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D8B238F138500EDB0F1 /* LW_Y201979--A CDC1_OI_MT.pdf */; };
+		DE971D90238F138600EDB0F1 /* LW_Y201845---_OI_MT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D8C238F138600EDB0F1 /* LW_Y201845---_OI_MT.pdf */; };
+		DE971D91238F138600EDB0F1 /* LW_Y201974--A CDC2_OI_MT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D8D238F138600EDB0F1 /* LW_Y201974--A CDC2_OI_MT.pdf */; };
+		DE971D92238F138600EDB0F1 /* LW_Y201975--A-AOI_Stamped.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE971D8E238F138600EDB0F1 /* LW_Y201975--A-AOI_Stamped.pdf */; };
+		DE971D94238F139D00EDB0F1 /* AMS3015CL Light Weldment Picture List Rev A02 ME18-0107 LEON.PDF in Resources */ = {isa = PBXBuildFile; fileRef = DE971D93238F139D00EDB0F1 /* AMS3015CL Light Weldment Picture List Rev A02 ME18-0107 LEON.PDF */; };
+		DEB7526623DBA81900A4329F /* DirectoryViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7526523DBA81900A4329F /* DirectoryViewController+TableView.swift */; };
+		DEFADBEA23E08D94004462EB /* PDFPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFADBE923E08D94004462EB /* PDFPreviewTableViewCell.swift */; };
+		DEFADBEC23E09EC0004462EB /* DirectoryViewController+Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFADBEB23E09EC0004462EB /* DirectoryViewController+Handlers.swift */; };
+		DEFADBEE23E0AB3A004462EB /* DirectoryViewController+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFADBED23E0AB3A004462EB /* DirectoryViewController+Protocols.swift */; };
+		DEFADBF023E0CD73004462EB /* PDFDocument+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFADBEF23E0CD73004462EB /* PDFDocument+Protocols.swift */; };
+		DEFADBF323E0E431004462EB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFADBF223E0E431004462EB /* CoreDataManager.swift */; };
+		DEFADBF523E0E482004462EB /* CoreDataManager+DocumentNotesCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFADBF423E0E482004462EB /* CoreDataManager+DocumentNotesCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +99,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE21F68A23C3D3CA00F05002 /* HW_M200551---_OI_MT_RELEASED.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW_M200551---_OI_MT_RELEASED.pdf"; sourceTree = "<group>"; };
+		DE21F68B23C3D3CA00F05002 /* HW_M200552---_OI_MT_RELEASED.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW_M200552---_OI_MT_RELEASED.pdf"; sourceTree = "<group>"; };
+		DE62835E23DA221200D7DBCC /* DirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewController.swift; sourceTree = "<group>"; };
+		DE78BD6B23888E8700E9F2AF /* BasicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
+		DE78BD6E23888EF500E9F2AF /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		DE78BD7123888F3700E9F2AF /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
+		DE78BD742388AFC400E9F2AF /* WorkOrderTypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOrderTypeTableViewController.swift; sourceTree = "<group>"; };
+		DE78BD762388AFD400E9F2AF /* WorkOrderTypeTableViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkOrderTypeTableViewController+TableView.swift"; sourceTree = "<group>"; };
+		DE78BD782388B00C00E9F2AF /* WorkOrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOrderType.swift; sourceTree = "<group>"; };
+		DE78BD7A2388B09400E9F2AF /* WorkOrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOrderModel.swift; sourceTree = "<group>"; };
+		DE78BD7D2388B41D00E9F2AF /* WorkOrderModelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOrderModelTableViewController.swift; sourceTree = "<group>"; };
+		DE78BD7F2388B42C00E9F2AF /* WorkOrderModelTableViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkOrderModelTableViewController+TableView.swift"; sourceTree = "<group>"; };
 		DE8A0610238875D700A1A355 /* MFGWorkOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFGWorkOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8A0613238875D700A1A355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE8A0615238875D700A1A355 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DE8A0617238875D700A1A355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE8A061A238875D700A1A355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE8A061D238875D700A1A355 /* MFGWorkOrder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MFGWorkOrder.xcdatamodel; sourceTree = "<group>"; };
 		DE8A061F238875D800A1A355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE8A0622238875D800A1A355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +124,59 @@
 		DE8A0634238875D800A1A355 /* MFGWorkOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFGWorkOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8A0638238875D800A1A355 /* MFGWorkOrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFGWorkOrderUITests.swift; sourceTree = "<group>"; };
 		DE8A063A238875D800A1A355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8A064A2388764500A1A355 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		DE8A064C2388765200A1A355 /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		DE8A064F238876B600A1A355 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		DE8A06522388778000A1A355 /* WorkOrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOrdersTableViewController.swift; sourceTree = "<group>"; };
+		DE8A06542388778E00A1A355 /* WorkOrdersTableViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkOrdersTableViewController+TableView.swift"; sourceTree = "<group>"; };
+		DE8A06572388785500A1A355 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		DE8A065A2388792500A1A355 /* WorkOrderFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOrderFile.swift; sourceTree = "<group>"; };
+		DE8A065D23887A7800A1A355 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		DE8A065F23887EB800A1A355 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DE8A0674238884C000A1A355 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		DE971D4D238F12BA00EDB0F1 /* HW-Y202012--A STATIONARY TABLE WELDMENT_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW-Y202012--A STATIONARY TABLE WELDMENT_OI.PDF"; sourceTree = "<group>"; };
+		DE971D4E238F12BA00EDB0F1 /* HW-Y201964--B Sub Frame Final Weldment_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW-Y201964--B Sub Frame Final Weldment_OI.PDF"; sourceTree = "<group>"; };
+		DE971D4F238F12BA00EDB0F1 /* HW-Y201962--B Main Frame Final Weldment_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW-Y201962--B Main Frame Final Weldment_OI.PDF"; sourceTree = "<group>"; };
+		DE971D50238F12BB00EDB0F1 /* HW-Y201964--B Sub Frame LHS_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW-Y201964--B Sub Frame LHS_OI.PDF"; sourceTree = "<group>"; };
+		DE971D51238F12BB00EDB0F1 /* HW-Y201962--B Main Frame RHS Weldment_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW-Y201962--B Main Frame RHS Weldment_OI.PDF"; sourceTree = "<group>"; };
+		DE971D52238F12BB00EDB0F1 /* HW-Y201961--A ST Frame Weldment_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW-Y201961--A ST Frame Weldment_OI.PDF"; sourceTree = "<group>"; };
+		DE971D53238F12BB00EDB0F1 /* HW-Y201970--A Suction Frame Weldment_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW-Y201970--A Suction Frame Weldment_OI.PDF"; sourceTree = "<group>"; };
+		DE971D54238F12BB00EDB0F1 /* HW-Y201964--B Sub Frame RHS_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW-Y201964--B Sub Frame RHS_OI.PDF"; sourceTree = "<group>"; };
+		DE971D55238F12BC00EDB0F1 /* HW-Y201962--B Main Frame LHS Weldment_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW-Y201962--B Main Frame LHS Weldment_OI.PDF"; sourceTree = "<group>"; };
+		DE971D56238F12BC00EDB0F1 /* HW-Y201960--A FT Frame Weldment_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW-Y201960--A FT Frame Weldment_OI.PDF"; sourceTree = "<group>"; };
+		DE971D57238F12BC00EDB0F1 /* HW-Y201969--A Fork Frame Weldment_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HW-Y201969--A Fork Frame Weldment_OI.PDF"; sourceTree = "<group>"; };
+		DE971D63238F12CE00EDB0F1 /* HWY201724--B_OI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HWY201724--B_OI.pdf"; sourceTree = "<group>"; };
+		DE971D64238F12CE00EDB0F1 /* HWY202124---_OI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HWY202124---_OI.pdf"; sourceTree = "<group>"; };
+		DE971D65238F12CF00EDB0F1 /* HWY201726--B_A01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HWY201726--B_A01.pdf"; sourceTree = "<group>"; };
+		DE971D66238F12CF00EDB0F1 /* HWY201727--B_A01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HWY201727--B_A01.pdf"; sourceTree = "<group>"; };
+		DE971D67238F12D100EDB0F1 /* HWY201723--D_A01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HWY201723--D_A01.pdf"; sourceTree = "<group>"; };
+		DE971D68238F12D200EDB0F1 /* HWY202125---_OI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HWY202125---_OI.pdf"; sourceTree = "<group>"; };
+		DE971D69238F12D300EDB0F1 /* HWY202126---_OI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HWY202126---_OI.pdf"; sourceTree = "<group>"; };
+		DE971D6A238F12D300EDB0F1 /* HWY201725---_OI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HWY201725---_OI.pdf"; sourceTree = "<group>"; };
+		DE971D73238F134900EDB0F1 /* LWY201875---_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LWY201875---_OI.PDF"; sourceTree = "<group>"; };
+		DE971D74238F134900EDB0F1 /* LWY112799--A_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LWY112799--A_OI.PDF"; sourceTree = "<group>"; };
+		DE971D75238F134900EDB0F1 /* LWY201874---_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LWY201874---_OI.PDF"; sourceTree = "<group>"; };
+		DE971D79238F135900EDB0F1 /* Y108889--Wheel Cover.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Y108889--Wheel Cover.pdf"; sourceTree = "<group>"; };
+		DE971D7A238F135900EDB0F1 /* Y20101400 Rib.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Y20101400 Rib.pdf"; sourceTree = "<group>"; };
+		DE971D7B238F135900EDB0F1 /* Y20102200 Shot pin Cover.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Y20102200 Shot pin Cover.pdf"; sourceTree = "<group>"; };
+		DE971D7C238F135900EDB0F1 /* Y201038--Cover.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Y201038--Cover.pdf"; sourceTree = "<group>"; };
+		DE971D81238F136A00EDB0F1 /* LWY114183---_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LWY114183---_OI.PDF"; sourceTree = "<group>"; };
+		DE971D82238F136A00EDB0F1 /* LWY114182---_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LWY114182---_OI.PDF"; sourceTree = "<group>"; };
+		DE971D83238F136A00EDB0F1 /* LWY201786--A_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LWY201786--A_OI.PDF"; sourceTree = "<group>"; };
+		DE971D84238F136B00EDB0F1 /* LWY202161---_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LWY202161---_OI.PDF"; sourceTree = "<group>"; };
+		DE971D85238F136B00EDB0F1 /* LWY202162---_OI.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LWY202162---_OI.PDF"; sourceTree = "<group>"; };
+		DE971D8B238F138500EDB0F1 /* LW_Y201979--A CDC1_OI_MT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LW_Y201979--A CDC1_OI_MT.pdf"; sourceTree = "<group>"; };
+		DE971D8C238F138600EDB0F1 /* LW_Y201845---_OI_MT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LW_Y201845---_OI_MT.pdf"; sourceTree = "<group>"; };
+		DE971D8D238F138600EDB0F1 /* LW_Y201974--A CDC2_OI_MT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LW_Y201974--A CDC2_OI_MT.pdf"; sourceTree = "<group>"; };
+		DE971D8E238F138600EDB0F1 /* LW_Y201975--A-AOI_Stamped.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LW_Y201975--A-AOI_Stamped.pdf"; sourceTree = "<group>"; };
+		DE971D93238F139D00EDB0F1 /* AMS3015CL Light Weldment Picture List Rev A02 ME18-0107 LEON.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AMS3015CL Light Weldment Picture List Rev A02 ME18-0107 LEON.PDF"; sourceTree = "<group>"; };
+		DEB7526523DBA81900A4329F /* DirectoryViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DirectoryViewController+TableView.swift"; sourceTree = "<group>"; };
+		DEFADBE923E08D94004462EB /* PDFPreviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPreviewTableViewCell.swift; sourceTree = "<group>"; };
+		DEFADBEB23E09EC0004462EB /* DirectoryViewController+Handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DirectoryViewController+Handlers.swift"; sourceTree = "<group>"; };
+		DEFADBED23E0AB3A004462EB /* DirectoryViewController+Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DirectoryViewController+Protocols.swift"; sourceTree = "<group>"; };
+		DEFADBEF23E0CD73004462EB /* PDFDocument+Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFDocument+Protocols.swift"; sourceTree = "<group>"; };
+		DEFADBF223E0E431004462EB /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		DEFADBF423E0E482004462EB /* CoreDataManager+DocumentNotesCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataManager+DocumentNotesCore.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +204,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE21F68923C3D3B100F05002 /* Bluco Setup Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				DE21F68A23C3D3CA00F05002 /* HW_M200551---_OI_MT_RELEASED.pdf */,
+				DE21F68B23C3D3CA00F05002 /* HW_M200552---_OI_MT_RELEASED.pdf */,
+			);
+			path = "Bluco Setup Instructions";
+			sourceTree = "<group>";
+		};
+		DE62835D23DA21FA00D7DBCC /* DirectoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE62835E23DA221200D7DBCC /* DirectoryViewController.swift */,
+				DEB7526523DBA81900A4329F /* DirectoryViewController+TableView.swift */,
+				DEFADBEB23E09EC0004462EB /* DirectoryViewController+Handlers.swift */,
+				DEFADBED23E0AB3A004462EB /* DirectoryViewController+Protocols.swift */,
+			);
+			path = DirectoryViewController;
+			sourceTree = "<group>";
+		};
+		DE78BD6A23888E7700E9F2AF /* BasicTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE78BD6B23888E8700E9F2AF /* BasicTableViewCell.swift */,
+			);
+			path = BasicTableViewCell;
+			sourceTree = "<group>";
+		};
+		DE78BD6D23888EE600E9F2AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE78BD6E23888EF500E9F2AF /* Helpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DE78BD7023888F2B00E9F2AF /* BorderView */ = {
+			isa = PBXGroup;
+			children = (
+				DE78BD7123888F3700E9F2AF /* BorderView.swift */,
+			);
+			path = BorderView;
+			sourceTree = "<group>";
+		};
+		DE78BD732388AFAA00E9F2AF /* WorkOrderTypeTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE78BD742388AFC400E9F2AF /* WorkOrderTypeTableViewController.swift */,
+				DE78BD762388AFD400E9F2AF /* WorkOrderTypeTableViewController+TableView.swift */,
+			);
+			path = WorkOrderTypeTableViewController;
+			sourceTree = "<group>";
+		};
+		DE78BD7C2388B40500E9F2AF /* WorkOrderModelTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE78BD7D2388B41D00E9F2AF /* WorkOrderModelTableViewController.swift */,
+				DE78BD7F2388B42C00E9F2AF /* WorkOrderModelTableViewController+TableView.swift */,
+			);
+			path = WorkOrderModelTableViewController;
+			sourceTree = "<group>";
+		};
 		DE8A0607238875D700A1A355 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +289,19 @@
 		DE8A0612238875D700A1A355 /* MFGWorkOrder */ = {
 			isa = PBXGroup;
 			children = (
+				DEFADBF123E0E423004462EB /* CoreDataManager */,
+				DE78BD6D23888EE600E9F2AF /* Extensions */,
+				DE8A06612388842200A1A355 /* Files */,
+				DE8A06482388761100A1A355 /* Controller */,
+				DE8A06472388760B00A1A355 /* View */,
+				DE8A06462388760200A1A355 /* Model */,
 				DE8A0613238875D700A1A355 /* AppDelegate.swift */,
-				DE8A0615238875D700A1A355 /* SceneDelegate.swift */,
 				DE8A0617238875D700A1A355 /* ViewController.swift */,
-				DE8A0619238875D700A1A355 /* Main.storyboard */,
 				DE8A061F238875D800A1A355 /* Assets.xcassets */,
 				DE8A0621238875D800A1A355 /* LaunchScreen.storyboard */,
 				DE8A0624238875D800A1A355 /* Info.plist */,
 				DE8A061C238875D700A1A355 /* MFGWorkOrder.xcdatamodeld */,
+				DE8A065F23887EB800A1A355 /* Main.storyboard */,
 			);
 			path = MFGWorkOrder;
 			sourceTree = "<group>";
@@ -129,6 +322,234 @@
 				DE8A063A238875D800A1A355 /* Info.plist */,
 			);
 			path = MFGWorkOrderUITests;
+			sourceTree = "<group>";
+		};
+		DE8A06462388760200A1A355 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE8A065A2388792500A1A355 /* WorkOrderFile.swift */,
+				DE78BD782388B00C00E9F2AF /* WorkOrderType.swift */,
+				DE78BD7A2388B09400E9F2AF /* WorkOrderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE8A06472388760B00A1A355 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEFADBE823E08D76004462EB /* PDFPreviewTableViewCell */,
+				DE78BD7023888F2B00E9F2AF /* BorderView */,
+				DE78BD6A23888E7700E9F2AF /* BasicTableViewCell */,
+				DE8A065C23887A6A00A1A355 /* NavigationController */,
+				DE8A06562388784400A1A355 /* HeaderTableViewCell */,
+				DE8A064E238876A900A1A355 /* CollectionView */,
+				DE8A06492388761800A1A355 /* QRScannerViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE8A06482388761100A1A355 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE62835D23DA21FA00D7DBCC /* DirectoryViewController */,
+				DE78BD7C2388B40500E9F2AF /* WorkOrderModelTableViewController */,
+				DE78BD732388AFAA00E9F2AF /* WorkOrderTypeTableViewController */,
+				DE8A0673238884AF00A1A355 /* PDFViewController */,
+				DE8A06512388775E00A1A355 /* WorkOrdersTableViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE8A06492388761800A1A355 /* QRScannerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE8A064A2388764500A1A355 /* QRScannerView.swift */,
+				DE8A064C2388765200A1A355 /* QRScannerViewController.swift */,
+			);
+			path = QRScannerViewController;
+			sourceTree = "<group>";
+		};
+		DE8A064E238876A900A1A355 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				DE8A064F238876B600A1A355 /* CollectionView.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		DE8A06512388775E00A1A355 /* WorkOrdersTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE8A06522388778000A1A355 /* WorkOrdersTableViewController.swift */,
+				DE8A06542388778E00A1A355 /* WorkOrdersTableViewController+TableView.swift */,
+			);
+			path = WorkOrdersTableViewController;
+			sourceTree = "<group>";
+		};
+		DE8A06562388784400A1A355 /* HeaderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE8A06572388785500A1A355 /* HeaderTableViewCell.swift */,
+			);
+			path = HeaderTableViewCell;
+			sourceTree = "<group>";
+		};
+		DE8A065C23887A6A00A1A355 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				DE8A065D23887A7800A1A355 /* NavigationController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		DE8A06612388842200A1A355 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE21F68923C3D3B100F05002 /* Bluco Setup Instructions */,
+				DE971D43238F11DA00EDB0F1 /* LightWeld */,
+				DE971D42238F11D200EDB0F1 /* HeavyWeld */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		DE8A0673238884AF00A1A355 /* PDFViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE8A0674238884C000A1A355 /* PDFViewController.swift */,
+				DEFADBEF23E0CD73004462EB /* PDFDocument+Protocols.swift */,
+			);
+			path = PDFViewController;
+			sourceTree = "<group>";
+		};
+		DE971D42238F11D200EDB0F1 /* HeavyWeld */ = {
+			isa = PBXGroup;
+			children = (
+				DE971D46238F120400EDB0F1 /* HW_AMS4020 CL */,
+				DE971D44238F11E800EDB0F1 /* HW_AMS3015-ROS */,
+			);
+			path = HeavyWeld;
+			sourceTree = "<group>";
+		};
+		DE971D43238F11DA00EDB0F1 /* LightWeld */ = {
+			isa = PBXGroup;
+			children = (
+				DE971D4C238F127A00EDB0F1 /* LW_LST4020 CL */,
+				DE971D4B238F126600EDB0F1 /* LW_LST3015 G9 */,
+				DE971D4A238F125400EDB0F1 /* LW_AMS4020-ROS */,
+				DE971D49238F124A00EDB0F1 /* LW_AMS4020 CL */,
+				DE971D48238F123E00EDB0F1 /* LW_AMS3015ROS */,
+				DE971D47238F123300EDB0F1 /* LW_AMS3015-CL */,
+			);
+			path = LightWeld;
+			sourceTree = "<group>";
+		};
+		DE971D44238F11E800EDB0F1 /* HW_AMS3015-ROS */ = {
+			isa = PBXGroup;
+			children = (
+				DE971D67238F12D100EDB0F1 /* HWY201723--D_A01.pdf */,
+				DE971D63238F12CE00EDB0F1 /* HWY201724--B_OI.pdf */,
+				DE971D6A238F12D300EDB0F1 /* HWY201725---_OI.pdf */,
+				DE971D65238F12CF00EDB0F1 /* HWY201726--B_A01.pdf */,
+				DE971D66238F12CF00EDB0F1 /* HWY201727--B_A01.pdf */,
+				DE971D64238F12CE00EDB0F1 /* HWY202124---_OI.pdf */,
+				DE971D68238F12D200EDB0F1 /* HWY202125---_OI.pdf */,
+				DE971D69238F12D300EDB0F1 /* HWY202126---_OI.pdf */,
+			);
+			path = "HW_AMS3015-ROS";
+			sourceTree = "<group>";
+		};
+		DE971D46238F120400EDB0F1 /* HW_AMS4020 CL */ = {
+			isa = PBXGroup;
+			children = (
+				DE971D56238F12BC00EDB0F1 /* HW-Y201960--A FT Frame Weldment_OI.PDF */,
+				DE971D52238F12BB00EDB0F1 /* HW-Y201961--A ST Frame Weldment_OI.PDF */,
+				DE971D4F238F12BA00EDB0F1 /* HW-Y201962--B Main Frame Final Weldment_OI.PDF */,
+				DE971D55238F12BC00EDB0F1 /* HW-Y201962--B Main Frame LHS Weldment_OI.PDF */,
+				DE971D51238F12BB00EDB0F1 /* HW-Y201962--B Main Frame RHS Weldment_OI.PDF */,
+				DE971D4E238F12BA00EDB0F1 /* HW-Y201964--B Sub Frame Final Weldment_OI.PDF */,
+				DE971D50238F12BB00EDB0F1 /* HW-Y201964--B Sub Frame LHS_OI.PDF */,
+				DE971D54238F12BB00EDB0F1 /* HW-Y201964--B Sub Frame RHS_OI.PDF */,
+				DE971D57238F12BC00EDB0F1 /* HW-Y201969--A Fork Frame Weldment_OI.PDF */,
+				DE971D53238F12BB00EDB0F1 /* HW-Y201970--A Suction Frame Weldment_OI.PDF */,
+				DE971D4D238F12BA00EDB0F1 /* HW-Y202012--A STATIONARY TABLE WELDMENT_OI.PDF */,
+			);
+			path = "HW_AMS4020 CL";
+			sourceTree = "<group>";
+		};
+		DE971D47238F123300EDB0F1 /* LW_AMS3015-CL */ = {
+			isa = PBXGroup;
+			children = (
+				DE971D93238F139D00EDB0F1 /* AMS3015CL Light Weldment Picture List Rev A02 ME18-0107 LEON.PDF */,
+			);
+			path = "LW_AMS3015-CL";
+			sourceTree = "<group>";
+		};
+		DE971D48238F123E00EDB0F1 /* LW_AMS3015ROS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LW_AMS3015ROS;
+			sourceTree = "<group>";
+		};
+		DE971D49238F124A00EDB0F1 /* LW_AMS4020 CL */ = {
+			isa = PBXGroup;
+			children = (
+				DE971D8C238F138600EDB0F1 /* LW_Y201845---_OI_MT.pdf */,
+				DE971D8D238F138600EDB0F1 /* LW_Y201974--A CDC2_OI_MT.pdf */,
+				DE971D8E238F138600EDB0F1 /* LW_Y201975--A-AOI_Stamped.pdf */,
+				DE971D8B238F138500EDB0F1 /* LW_Y201979--A CDC1_OI_MT.pdf */,
+			);
+			path = "LW_AMS4020 CL";
+			sourceTree = "<group>";
+		};
+		DE971D4A238F125400EDB0F1 /* LW_AMS4020-ROS */ = {
+			isa = PBXGroup;
+			children = (
+				DE971D82238F136A00EDB0F1 /* LWY114182---_OI.PDF */,
+				DE971D81238F136A00EDB0F1 /* LWY114183---_OI.PDF */,
+				DE971D83238F136A00EDB0F1 /* LWY201786--A_OI.PDF */,
+				DE971D84238F136B00EDB0F1 /* LWY202161---_OI.PDF */,
+				DE971D85238F136B00EDB0F1 /* LWY202162---_OI.PDF */,
+			);
+			path = "LW_AMS4020-ROS";
+			sourceTree = "<group>";
+		};
+		DE971D4B238F126600EDB0F1 /* LW_LST3015 G9 */ = {
+			isa = PBXGroup;
+			children = (
+				DE971D79238F135900EDB0F1 /* Y108889--Wheel Cover.pdf */,
+				DE971D7C238F135900EDB0F1 /* Y201038--Cover.pdf */,
+				DE971D7A238F135900EDB0F1 /* Y20101400 Rib.pdf */,
+				DE971D7B238F135900EDB0F1 /* Y20102200 Shot pin Cover.pdf */,
+			);
+			path = "LW_LST3015 G9";
+			sourceTree = "<group>";
+		};
+		DE971D4C238F127A00EDB0F1 /* LW_LST4020 CL */ = {
+			isa = PBXGroup;
+			children = (
+				DE971D74238F134900EDB0F1 /* LWY112799--A_OI.PDF */,
+				DE971D75238F134900EDB0F1 /* LWY201874---_OI.PDF */,
+				DE971D73238F134900EDB0F1 /* LWY201875---_OI.PDF */,
+			);
+			path = "LW_LST4020 CL";
+			sourceTree = "<group>";
+		};
+		DEFADBE823E08D76004462EB /* PDFPreviewTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DEFADBE923E08D94004462EB /* PDFPreviewTableViewCell.swift */,
+			);
+			path = PDFPreviewTableViewCell;
+			sourceTree = "<group>";
+		};
+		DEFADBF123E0E423004462EB /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				DEFADBF223E0E431004462EB /* CoreDataManager.swift */,
+				DEFADBF423E0E482004462EB /* CoreDataManager+DocumentNotesCore.swift */,
+			);
+			path = CoreDataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +656,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE971D90238F138600EDB0F1 /* LW_Y201845---_OI_MT.pdf in Resources */,
+				DE971D5A238F12BC00EDB0F1 /* HW-Y201962--B Main Frame Final Weldment_OI.PDF in Resources */,
+				DE971D88238F136B00EDB0F1 /* LWY201786--A_OI.PDF in Resources */,
+				DE971D78238F134900EDB0F1 /* LWY201874---_OI.PDF in Resources */,
+				DE971D62238F12BC00EDB0F1 /* HW-Y201969--A Fork Frame Weldment_OI.PDF in Resources */,
+				DE971D8F238F138600EDB0F1 /* LW_Y201979--A CDC1_OI_MT.pdf in Resources */,
+				DE971D86238F136B00EDB0F1 /* LWY114183---_OI.PDF in Resources */,
+				DE971D5B238F12BC00EDB0F1 /* HW-Y201964--B Sub Frame LHS_OI.PDF in Resources */,
+				DE971D6B238F12D300EDB0F1 /* HWY201724--B_OI.pdf in Resources */,
+				DE971D72238F12D300EDB0F1 /* HWY201725---_OI.pdf in Resources */,
+				DE971D7E238F135900EDB0F1 /* Y20101400 Rib.pdf in Resources */,
+				DE971D58238F12BC00EDB0F1 /* HW-Y202012--A STATIONARY TABLE WELDMENT_OI.PDF in Resources */,
+				DE21F68C23C3D3CA00F05002 /* HW_M200551---_OI_MT_RELEASED.pdf in Resources */,
+				DE971D77238F134900EDB0F1 /* LWY112799--A_OI.PDF in Resources */,
+				DE971D61238F12BC00EDB0F1 /* HW-Y201960--A FT Frame Weldment_OI.PDF in Resources */,
+				DE971D76238F134900EDB0F1 /* LWY201875---_OI.PDF in Resources */,
+				DE971D6E238F12D300EDB0F1 /* HWY201727--B_A01.pdf in Resources */,
+				DE971D89238F136B00EDB0F1 /* LWY202161---_OI.PDF in Resources */,
+				DE971D70238F12D300EDB0F1 /* HWY202125---_OI.pdf in Resources */,
+				DE971D94238F139D00EDB0F1 /* AMS3015CL Light Weldment Picture List Rev A02 ME18-0107 LEON.PDF in Resources */,
+				DE8A066023887EB800A1A355 /* Main.storyboard in Resources */,
+				DE21F68D23C3D3CA00F05002 /* HW_M200552---_OI_MT_RELEASED.pdf in Resources */,
+				DE971D91238F138600EDB0F1 /* LW_Y201974--A CDC2_OI_MT.pdf in Resources */,
 				DE8A0623238875D800A1A355 /* LaunchScreen.storyboard in Resources */,
+				DE971D60238F12BC00EDB0F1 /* HW-Y201962--B Main Frame LHS Weldment_OI.PDF in Resources */,
+				DE971D80238F135900EDB0F1 /* Y201038--Cover.pdf in Resources */,
+				DE971D7F238F135900EDB0F1 /* Y20102200 Shot pin Cover.pdf in Resources */,
+				DE971D59238F12BC00EDB0F1 /* HW-Y201964--B Sub Frame Final Weldment_OI.PDF in Resources */,
+				DE971D6D238F12D300EDB0F1 /* HWY201726--B_A01.pdf in Resources */,
+				DE971D6C238F12D300EDB0F1 /* HWY202124---_OI.pdf in Resources */,
+				DE971D5D238F12BC00EDB0F1 /* HW-Y201961--A ST Frame Weldment_OI.PDF in Resources */,
+				DE971D87238F136B00EDB0F1 /* LWY114182---_OI.PDF in Resources */,
 				DE8A0620238875D800A1A355 /* Assets.xcassets in Resources */,
-				DE8A061B238875D700A1A355 /* Main.storyboard in Resources */,
+				DE971D5F238F12BC00EDB0F1 /* HW-Y201964--B Sub Frame RHS_OI.PDF in Resources */,
+				DE971D8A238F136B00EDB0F1 /* LWY202162---_OI.PDF in Resources */,
+				DE971D92238F138600EDB0F1 /* LW_Y201975--A-AOI_Stamped.pdf in Resources */,
+				DE971D7D238F135900EDB0F1 /* Y108889--Wheel Cover.pdf in Resources */,
+				DE971D5C238F12BC00EDB0F1 /* HW-Y201962--B Main Frame RHS Weldment_OI.PDF in Resources */,
+				DE971D5E238F12BC00EDB0F1 /* HW-Y201970--A Suction Frame Weldment_OI.PDF in Resources */,
+				DE971D71238F12D300EDB0F1 /* HWY202126---_OI.pdf in Resources */,
+				DE971D6F238F12D300EDB0F1 /* HWY201723--D_A01.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +722,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE8A0618238875D700A1A355 /* ViewController.swift in Sources */,
+				DE78BD6F23888EF500E9F2AF /* Helpers.swift in Sources */,
+				DE8A065E23887A7800A1A355 /* NavigationController.swift in Sources */,
 				DE8A0614238875D700A1A355 /* AppDelegate.swift in Sources */,
+				DE78BD802388B42C00E9F2AF /* WorkOrderModelTableViewController+TableView.swift in Sources */,
+				DE8A0675238884C000A1A355 /* PDFViewController.swift in Sources */,
+				DE8A0650238876B600A1A355 /* CollectionView.swift in Sources */,
+				DEFADBEA23E08D94004462EB /* PDFPreviewTableViewCell.swift in Sources */,
+				DE8A064D2388765200A1A355 /* QRScannerViewController.swift in Sources */,
+				DE78BD6C23888E8700E9F2AF /* BasicTableViewCell.swift in Sources */,
+				DEFADBEC23E09EC0004462EB /* DirectoryViewController+Handlers.swift in Sources */,
 				DE8A061E238875D700A1A355 /* MFGWorkOrder.xcdatamodeld in Sources */,
-				DE8A0616238875D700A1A355 /* SceneDelegate.swift in Sources */,
+				DEFADBEE23E0AB3A004462EB /* DirectoryViewController+Protocols.swift in Sources */,
+				DE78BD7B2388B09400E9F2AF /* WorkOrderModel.swift in Sources */,
+				DE78BD752388AFC400E9F2AF /* WorkOrderTypeTableViewController.swift in Sources */,
+				DE62835F23DA221200D7DBCC /* DirectoryViewController.swift in Sources */,
+				DE8A06552388778E00A1A355 /* WorkOrdersTableViewController+TableView.swift in Sources */,
+				DE8A06582388785500A1A355 /* HeaderTableViewCell.swift in Sources */,
+				DEFADBF523E0E482004462EB /* CoreDataManager+DocumentNotesCore.swift in Sources */,
+				DEFADBF023E0CD73004462EB /* PDFDocument+Protocols.swift in Sources */,
+				DE8A065B2388792500A1A355 /* WorkOrderFile.swift in Sources */,
+				DE78BD792388B00C00E9F2AF /* WorkOrderType.swift in Sources */,
+				DE8A064B2388764500A1A355 /* QRScannerView.swift in Sources */,
+				DE78BD7223888F3700E9F2AF /* BorderView.swift in Sources */,
+				DE78BD7E2388B41D00E9F2AF /* WorkOrderModelTableViewController.swift in Sources */,
+				DEB7526623DBA81900A4329F /* DirectoryViewController+TableView.swift in Sources */,
+				DE78BD772388AFD400E9F2AF /* WorkOrderTypeTableViewController+TableView.swift in Sources */,
+				DEFADBF323E0E431004462EB /* CoreDataManager.swift in Sources */,
+				DE8A06532388778000A1A355 /* WorkOrdersTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +785,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DE8A0619238875D700A1A355 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE8A061A238875D700A1A355 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DE8A0621238875D800A1A355 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,16 +915,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C5G29TXJ6E;
+				DEVELOPMENT_TEAM = 9CVKTECN2J;
 				INFOPLIST_FILE = MFGWorkOrder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fieldapp.MFGWorkOrder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fieldapp.MFGWorkOrderApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -457,16 +934,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C5G29TXJ6E;
+				DEVELOPMENT_TEAM = 9CVKTECN2J;
 				INFOPLIST_FILE = MFGWorkOrder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fieldapp.MFGWorkOrder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fieldapp.MFGWorkOrderApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
